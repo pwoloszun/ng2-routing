@@ -1,0 +1,9 @@
+<h3>User Details</h3>
+<div *ngIf="user" class="panel">
+  <p>ID: {{user.id}}</p>
+  <p>Name: {{user.name}}</p>
+</div>
+<hr/>
+<div>
+  <button (click)="showUsersList()" class="btn btn-default">Back to Users list</button>
+</div>
